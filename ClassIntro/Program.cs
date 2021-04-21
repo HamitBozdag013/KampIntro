@@ -37,15 +37,18 @@ namespace ClassIntro
                 Console.WriteLine(kurs.KursAdi + " --> " + kurs.KursunEgitmeni);
             }
 
-
-
         }
     }
 
     class Kurs
     {
+        // prop yazıp 2 kere tab a bastığımızda aşağıdaki gibi özellik(property) oluşur
+
         public string KursAdi { get; set; }
         public string KursunEgitmeni { get; set; }
         public int IzlenmeOrani { get; set; }
+
+
+
     }
 }
