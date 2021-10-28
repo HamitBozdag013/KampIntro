@@ -26,6 +26,7 @@ namespace DegerveReferansTipler
 
             Person person1 = new Person();
             Person person2 = new Person();
+
             person1.FirstName = "Hamit";
             person2 = person1;
             person1.FirstName = "Fahrettin";

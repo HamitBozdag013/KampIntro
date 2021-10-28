@@ -10,7 +10,7 @@ namespace Metotlar
     {
         public void Ekle(Urun urun)
         {
-            Console.WriteLine("Tebrikler, " + urun.Adi + " Sepete eklendi. Fiyatı: " + urun.Fiyati);
+            Console.WriteLine("Tebrikler. " + urun.Adi + " sepete eklendi. Fiyatı: " + urun.Fiyati);
         }
     }
 }

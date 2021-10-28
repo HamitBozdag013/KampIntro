@@ -7,6 +7,14 @@ namespace Metotlar
         static void Main(string[] args)
         {
 
+            /*
+            string urunAdi = "Elma";
+            double fiyati = 2.5;
+            string aciklama = "Amasya elması";
+
+            Class kullanmadığım zaman her bir ürün için yukarıdaki gibi tek tek tanımlama yapmam gerekir...
+            */
+
             Urun urun1 = new Urun();
             urun1.Adi = "Elma";
             urun1.Fiyati = 2;
@@ -16,7 +24,7 @@ namespace Metotlar
             urun2.Adi = "Karpuz";
             urun2.Fiyati = 1.5;
             urun2.Aciklama = "Diyarbakır karpuzu";
-
+             
             Urun[] urunler = new Urun[] { urun1, urun2 };
 
             foreach (Urun urun in urunler)
