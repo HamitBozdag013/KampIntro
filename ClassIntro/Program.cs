@@ -48,7 +48,5 @@ namespace ClassIntro
         public string KursunEgitmeni { get; set; }
         public int IzlenmeOrani { get; set; }
 
-
-
     }
 }
