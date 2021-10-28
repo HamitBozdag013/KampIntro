@@ -19,6 +19,7 @@ namespace OOP1
             //PascalCase -> Kelimelerin ilk harfleri büyük        CamelCase -> İlk kelimenin ilk harfi küçük devamındaki kelimerin ilk harfleri büyük       
             ProductManager productManager = new ProductManager();
             productManager.Add(product1);
+            productManager.Update(product2);
 
              
         }

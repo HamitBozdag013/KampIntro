@@ -19,3 +19,5 @@ namespace OOP1
         }
     }
 }
+
+// CRUD operasyonları Create Read Update Delete
