@@ -17,7 +17,8 @@ namespace Koleksiyonlar
             //isimler = new string[4]; // Fakat burada yaptığımız aslında bellekte isimler dizisi için tekrar 4 elemanlık bir yer açmak oluyor.
             //isimler[3] = "Fahrettin"; // Bu eklemiş olduğumuz eleman aslında yukarıdaki isimler dizisine değil bu yeni isimler dizisine ekleniyor.
             //Console.WriteLine(isimler[3]);
-            //Console.WriteLine(isimler[0]);// Bu satırın sonucunda biz ekrana Hamit yazmasını beklerken eyni isimler dizisinin 0 ıncı indisi boş olduğu için ekranda sonucu boş dönüyor.
+            //Console.WriteLine(isimler[0]);// Bu satırın sonucunda biz ekrana Hamit yazmasını beklerken yeni isimler dizisinin 0 ıncı indisi boş olduğu için ekranda sonucu boş dönüyor.
+
 
 
             //************BUNDAN SONRASI BENİM İÇİN ÇOK ÖNEMLİ********************
