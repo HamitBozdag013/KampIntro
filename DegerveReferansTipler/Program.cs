@@ -54,7 +54,7 @@ namespace DegerveReferansTipler
 
         }
 
-        class Person
+        class Person // base class
         {
             public int Id { get; set; }
             public string FirstName { get; set; }
